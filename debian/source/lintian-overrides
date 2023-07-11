@@ -1,0 +1,2 @@
+# upstream does not sign releases
+source: debian-watch-does-not-check-gpg-signature

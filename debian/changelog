@@ -1,5 +1,46 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-go-macaron-macaron (1.2.2-3) unstable; urgency=medium
 
-  * Initial release
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Michael Lustfield ]
+  * Team upload.
+
+ -- Michael Lustfield <mtecknology@debian.org>  Wed, 07 Apr 2021 09:50:50 +0000
+
+golang-github-go-macaron-macaron (1.2.2-2.1) unstable; urgency=medium
+
+  * Team upload.
+  * Remove Michael Lustfield (self) from Uploaders list.
+
+ -- Michael Lustfield <michael@lustfield.net>  Sat, 03 Feb 2018 12:13:29 -0600
+
+golang-github-go-macaron-macaron (1.2.2-2) unstable; urgency=medium
+
+  * Fix Vcs-Git URL
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 28 Jan 2018 20:15:19 +0100
+
+golang-github-go-macaron-macaron (1.2.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Follow upstream realeses.
+  * Maintenance updates:
+    - Standards-Version bump.
+    - Clean up d/watch.
+    - Add Testsuite to d/control.
+
+ -- Michael Lustfield <michael@lustfield.net>  Thu, 28 Sep 2017 00:48:20 -0500
+
+golang-github-go-macaron-macaron (1.2.1+git20170219.2.8be5635-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Michael Lustfield <michael@lustfield.net>  Sat, 08 Apr 2017 16:54:29 -0500
+
+golang-github-go-macaron-macaron (1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #813903).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 11 Feb 2016 13:50:11 +1100

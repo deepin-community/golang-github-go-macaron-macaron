@@ -1,4 +1,16 @@
 #!/usr/bin/make -f
 
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export DH_GOLANG_INSTALL_EXTRA := fixtures
+
 %:
-	dh $@
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_install:
+	dh_install
+	$(RM) -v debian/*/usr/share/gocode/src/gopkg.in/*/*_test.go
+
+override_dh_auto_test:
+	-dh_auto_test
